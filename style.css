@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100vw;
+
+
+}
+
+.card{
+    align-items: center;
+    color: black;
+    background-color: burlywood;
+    border: 2px solid black;
+    /* height: 400px; */
+    width: 300px;
+    padding: 30px;
+    border-radius: 30px;
+    
+    
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.profile:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.name{
+    margin: 5px;
+    font-size: 30px;
+}
+
+.mySelf{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.button{
+    background-color: rgb(182, 182, 219);
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: rgb(140, 140, 200);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
